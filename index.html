@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introdução à p5.js</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+ 
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.11.1/lib/p5.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ 
+</head>
+
+<body>
+  <h1>Foto com Filtro</h1>
+  <label for="colorName">Cor do filtro:</label>
+  <input type="text" id="colorName" placeholder="Digite uma cor (ex: red)">
+  <br><br>
+  <button id="filtro"    onclick="filterTint()">Aplicar Filtro</button>
+  <br><br>
+  <button id="Foto"   onclick="takeSnapshot()">Tirar Foto</button>
+  
+
+  <script src="sketch.js"></script>
+</body>
+
+</html>
